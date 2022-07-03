@@ -126,7 +126,7 @@ export const MuestraResultados = async (req:any, res:Response) => {
     });
 };
 
-export const MuestraMejores = async (req:any, res:Response) => {
+export const MuestraMejores = async (res:Response) => {
 
     const listaMejores = await Usuario.findAll();
 
@@ -142,7 +142,7 @@ export const MuestraMejores = async (req:any, res:Response) => {
     });
 };
 
-export const PalabrasAcertadas = async (req:any, res:Response) => {
+export const PalabrasAcertadas = async (res:Response) => {
 
     const masAcertadas:any = await Palabra.findAll();
 
