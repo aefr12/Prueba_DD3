@@ -1,0 +1,11 @@
+--2022-07-02 19:19:03--  https://www.postgresql.org/media/keys/ACCC4CF8.asc
+Resolviendo www.postgresql.org (www.postgresql.org)... 2a02:16a8:dc51::50, 2a02:c0:301:0:ffff::32, 2001:4800:3e1:1::230, ...
+Conectando con www.postgresql.org (www.postgresql.org)[2a02:16a8:dc51::50]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 4812 (4.7K) [application/octet-stream]
+Guardando como: ‘STDOUT’
+
+-                        0%[                           ]       0  --.-KB/s               -                      100%[==========================>]   4.70K  --.-KB/s    en 0s      
+
+2022-07-02 19:19:04 (769 MB/s) - escritos a stdout [4812/4812]
+
